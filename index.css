@@ -1,0 +1,26 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap-grid.css";
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+    background-color: #323B31;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brunson';
+  src: url('./fonts/brunson/Brunson.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('./fonts/cocogoose/Cocogoose.ttf') format('truetype');
+}
+
+.text-hover:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+  }
+  
